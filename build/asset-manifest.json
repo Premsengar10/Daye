@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Daye/static/css/main.8c694eb8.css",
+    "main.js": "/Daye/static/js/main.fec9699f.js",
+    "static/js/787.6650c8b2.chunk.js": "/Daye/static/js/787.6650c8b2.chunk.js",
+    "index.html": "/Daye/index.html",
+    "main.8c694eb8.css.map": "/Daye/static/css/main.8c694eb8.css.map",
+    "main.fec9699f.js.map": "/Daye/static/js/main.fec9699f.js.map",
+    "787.6650c8b2.chunk.js.map": "/Daye/static/js/787.6650c8b2.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8c694eb8.css",
+    "static/js/main.fec9699f.js"
+  ]
+}
