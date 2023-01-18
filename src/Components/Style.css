@@ -1,0 +1,56 @@
+/* css for Navbar */
+.HomeNavbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(168, 156, 156);
+    /* padding: 15px; */
+    height: 10vh;
+    width: auto;
+}
+.HomeNavbar a{
+    text-decoration: none;
+    color: inherit;
+}
+.logo{
+    margin-right: 50px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+.list{
+    list-style: none;
+    display: flex;
+    gap: 45px;
+    font-size: 16px;
+}
+#toggler,
+.HomeNavbar label{
+    display: none;
+}
+@media screen and
+(max-width:600px) {
+    .menu{
+        width: 100%;
+        max-height: 0;
+        overflow: hidden;
+    }
+    .list{
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+
+    }
+    .HomeNavbar label{
+        display: inline-flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    #toggler:checked ~ .menu{
+        max-height: 100%;
+    }
+}
